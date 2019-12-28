@@ -1,0 +1,10 @@
+<div class="profiles">
+    <ul>
+        <li class="portraitsLeft" id="one" align="left">
+            <a href="google.com" onmouseover="OrteliusWorldMap.width=150;" onmouseout="OrteliusWorldMap.width=100">
+                <img src="../images/formula1/formula 1.gif" width="100" name="OrteliusWorldMap">
+            </a> 
+            Character 1
+        </li>
+    </ul>
+</div>

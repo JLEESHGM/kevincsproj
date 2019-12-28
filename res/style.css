@@ -1,0 +1,140 @@
+body {
+  background-color: #FF9C60;
+  margin: auto;
+  text-align: center;
+}
+.explain .formulae img {
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.explain .formulae{
+  background-color: yellow;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: double;
+  border-radius: 5%;
+}
+
+.explain {
+  background-color: orange;
+  width: 45%;
+  padding: 10px;
+  border-style: double;
+  border-radius: 5%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.btn{
+  border: 1px solid #3498db;
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: auto;
+  transition: 0.8s;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.questions {
+  background-color: #FFDF60;
+  width: 45%;
+  margin: auto;
+  border-radius: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-style: double;
+}
+.questions div img {
+  margin: center;
+  width: 80%;
+}
+
+.questions div {
+  display: none;
+}
+
+.btn1:hover{
+  color: green;
+}
+.btn2:hover{
+  color: yellow;
+}
+.btn3:hover{
+  color: red;
+}
+
+.equations {
+  list-style: none;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: skyblue;
+  margin-left: 650px;
+  margin-right: 650px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.equation {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.mainPage {
+ color: black;
+ border-style: double;
+ border-radius: 5%;
+ margin: auto;
+ width: 45%;
+ background-color: #82FF60;
+}
+.answers {
+  border-radius: 5%;
+  background-color: yellow;
+  border-style: double;
+  width: 45%;
+  margin: auto;
+}
+.answers div {
+  display: none;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.title {
+  font-family: Arial;
+  color: black;
+  border-radius: 5%;
+  border-style: double;
+  background-color: #82FF60;
+  width: 45%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#introduction {
+  text-align: center;
+  color: black;
+  font-style: oblique;
+}
+
+.doppler{
+  color: orangered;
+}
+.footer{
+  border-style: double;
+  border-radius: 10%;
+  margin:auto;
+  background-color: #EFFF60;
+  width: 45%;
+  margin-bottom: 3%;
+}
