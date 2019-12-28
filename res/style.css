@@ -71,8 +71,8 @@ body {
 }
 
 .equations {
+  list-style-position: inside;
   list-style: none;
-  text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: skyblue;
@@ -83,8 +83,12 @@ body {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-.equation img{
+
+.equation {
+  width: 150px ;
   background-color: white;
+  padding: 5px;
+  margin: 5px;
 }
 
 .mainPage {
