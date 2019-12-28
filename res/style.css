@@ -76,10 +76,10 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   background-color: skyblue;
-  margin-left: 650px;
-  margin-right: 650px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 40%;
+  padding-right: 40%;
   padding-top: 4px;
   padding-bottom: 4px;
 }
