@@ -86,6 +86,8 @@ body {
 .equation {
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-left: 80%;
+  padding-right: 80%;
   background-color: white;
 }
 
