@@ -71,7 +71,6 @@ body {
 }
 
 .equations {
-  list-style-position: inside;
   list-style: none;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -80,6 +79,7 @@ body {
   margin-right: 40%;
   padding-top: 4px;
   padding-bottom: 4px;
+  text-align: center;
 }
 
 .equation {
