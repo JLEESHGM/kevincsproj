@@ -84,10 +84,7 @@ body {
   padding-bottom: 4px;
 }
 .equation {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-left: 80%;
-  padding-right: 80%;
+  width: 10%;
   background-color: white;
 }
 
