@@ -20,7 +20,7 @@ body {
 }
 
 .explain {
-  background-color: orange;
+  background: radial-gradient(#100368, #280ED8);
   width: 45%;
   padding: 10px;
   border-style: double;
