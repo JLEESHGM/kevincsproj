@@ -2,8 +2,8 @@ body {
   background-color: #FF9C60;
   margin: auto;
   text-align: center;
+  background-image: url(https://images.newscientist.com/wp-content/uploads/2019/09/16155544/c0300037-black_hole_merger_and_gravitational_waves-spl.jpg?width=600);
   background-size: cover;
-  background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)) url(https://images.newscientist.com/wp-content/uploads/2019/09/16155544/c0300037-black_hole_merger_and_gravitational_waves-spl.jpg?width=600);
 }
 .explain .formulae img {
    display: block;
