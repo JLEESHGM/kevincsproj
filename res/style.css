@@ -45,7 +45,7 @@ body {
 }
 
 .questions {
-  background: radial-gradient(#6591FF, #042BD8);
+    background: radial-gradient(#6591FF, #042BD8);
   width: 45%;
   margin: auto;
   border-radius: 5%;
@@ -106,10 +106,10 @@ body {
 }
 .answers {
   border-radius: 5%;
-  background-color: yellow;
   border-style: double;
   width: 45%;
   margin: auto;
+  background: radial-gradient(#7CA2FF, #240CC2);
 }
 .answers div {
   display: none;
