@@ -45,7 +45,7 @@ body {
 }
 
 .questions {
-  background-color: #FFDF60;
+  background: radial-gradient(#6591FF, #042BD8);
   width: 45%;
   margin: auto;
   border-radius: 5%;
