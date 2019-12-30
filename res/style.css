@@ -84,6 +84,8 @@ body {
   padding-bottom: 4px;
   text-align: center;
   border-style: double;
+  border-radius: 5%;
+  color: #74D9FF;
 }
 
 .equation {
