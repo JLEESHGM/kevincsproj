@@ -83,6 +83,7 @@ body {
   padding-top: 4px;
   padding-bottom: 4px;
   text-align: center;
+  border-style: double;
 }
 
 .equation {
