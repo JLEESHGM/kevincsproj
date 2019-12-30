@@ -3,6 +3,7 @@ body {
   margin: auto;
   text-align: center;
   background: linear-gradient(#1F00FF, #9E00FF);
+  background-image: url(https://images.theconversation.com/files/279451/original/file-20190614-32361-zufjgi.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop);
 }
 .explain .formulae img {
    display: block;
