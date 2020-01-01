@@ -53,6 +53,16 @@ body > * {
   background-color: #C7EEFC;
 }
 
+.btn1:hover{
+  color: #38FA03;
+}
+.btn2:hover{
+  color: yellow;
+}
+.btn3:hover{
+  color: red;
+}
+
 .questions {
     background: radial-gradient(#6591FF, #042BD8);
   width: 45%;
@@ -62,6 +72,7 @@ body > * {
   padding-bottom: 20px;
   border-style: double;
 }
+
 .questions div img {
   margin: center;
   width: 80%;
@@ -69,16 +80,6 @@ body > * {
 
 .questions div {
   display: none;
-}
-
-.btn1:hover{
-  color: #38FA03;
-}
-.btn2:hover{
-  color: yellow;
-}
-.btn3:hover{
-  color: red;
 }
 
 .equations {
@@ -103,14 +104,6 @@ body > * {
   text-align: center;
 }
 
-.mainPage {
- color: #74D9FF;
- border-style: double;
- border-radius: 5%;
- margin: auto;
- width: 45%;
- background: radial-gradient(#100368, #280ED8);
-}
 .answers {
   border-radius: 5%;
   border-style: double;
@@ -118,10 +111,20 @@ body > * {
   margin: auto;
   background: radial-gradient(#7CA2FF, #240CC2);
 }
+
 .answers div {
   display: none;
   font-weight: bold;
   font-size: 60px;
+}
+
+.mainPage {
+ color: #74D9FF;
+ border-style: double;
+ border-radius: 5%;
+ margin: auto;
+ width: 45%;
+ background: radial-gradient(#100368, #280ED8);
 }
 
 .title {
