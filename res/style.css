@@ -135,10 +135,9 @@ body > * {
 }
 
 .titleImage{
-  text-align: center;
+  display: block;
   width: 25%;
   height: 25%;
-  margin: auto;
 }
 
 #introduction {
