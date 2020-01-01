@@ -76,6 +76,8 @@ body > * {
   background-color: white;
   padding: 5px;
   margin: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
   text-align: center;
   width: 150px;
 }
