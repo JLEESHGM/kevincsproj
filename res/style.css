@@ -117,7 +117,7 @@ body > * {
   color: white;
   font-style: oblique;
   padding-top: 7px;
-  padding-bottom: 7px;
+  padding-bottom: 10px;
   text-align: center;
   width: 25%;
 }
@@ -146,6 +146,7 @@ body > * {
   display: block;
   height: 25%;
   width: 25%;
+  margin-bottom: 7px;
 }
 
 
