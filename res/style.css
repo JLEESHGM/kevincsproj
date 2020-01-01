@@ -1,8 +1,7 @@
 body {
-  background-color: #FF9C60;
   margin: auto;
   text-align: center;
-  background-image: url("../iamges/mainpage/backimage.jpg");
+  background-image: url("../images/mainpage/backimage.jpg");
   background-size: cover;
 }
 .explain .formulae img {
