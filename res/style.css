@@ -2,7 +2,7 @@ body {
   margin: auto;
   text-align: center;
   background-image: url("../images/mainpage/backimage.jpg");
-  background-attachment: local;
+  background-attachment: fixed;
   background-size: cover;
 }
 .explain .formulae img {
