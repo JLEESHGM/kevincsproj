@@ -103,7 +103,8 @@ body > * {
   margin:auto;
   margin-bottom: 3%;
   width: 45%;
-  height: 10%;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 
