@@ -51,6 +51,9 @@ body > * {
 
 
 .explain .formulae img {
+   background-color: white;
+   border-style: double;
+   border-radius: 5%;
    display: block;
    margin: auto;
    margin-bottom: 10px;
@@ -106,8 +109,8 @@ body > * {
   margin:auto;
   margin-bottom: 3%;
   width: 45%;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 
