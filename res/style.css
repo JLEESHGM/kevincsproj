@@ -116,6 +116,8 @@ body > * {
   border-style: double;
   color: white;
   font-style: oblique;
+  padding-top: 7px;
+  padding-bottom: 7px;
   text-align: center;
 }
 
