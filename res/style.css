@@ -68,6 +68,7 @@ body > * {
   background: radial-gradient(#8372F3, #3E21FF);
   border-style: double;
   border-radius: 5%;
+  display: block;
   margin: auto;
   margin-left: auto;
   margin-right: auto;
