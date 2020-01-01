@@ -165,6 +165,8 @@ body > * {
   border-radius: 5%;
   border-style: double;
   margin: auto;
+  margin-bottom: 7px;
+  margin-top: 7px;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 45%;
