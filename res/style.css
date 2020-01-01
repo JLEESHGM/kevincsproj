@@ -121,6 +121,23 @@ body > * {
 }
 
 
+
+.title {
+  background: radial-gradient(#100368, #280ED8);
+  border-radius: 5%;
+  border-style: double;
+  color: #74D9FF;
+  font-family: Arial;
+  margin: auto;
+  margin-top: 10px;
+}
+.titleImage{
+  display: block;
+  height: 25%;
+  width: 25%;
+}
+
+
 .questions {
   background: radial-gradient(#6591FF, #042BD8);
   border-radius: 5%;
@@ -136,21 +153,4 @@ body > * {
 .questions div img {
   margin: center;
   width: 80%;
-}
-
-
-.title {
-  background: radial-gradient(#100368, #280ED8);
-  border-radius: 5%;
-  border-style: double;
-  color: #74D9FF;
-  font-family: Arial;
-  margin: auto;
-  margin-top: 10px;
-}
-
-.titleImage{
-  display: block;
-  height: 25%;
-  width: 25%;
 }
