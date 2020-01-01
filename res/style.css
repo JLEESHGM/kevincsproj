@@ -112,7 +112,9 @@ body > * {
 
 
 #introduction {
-  color: black;
+  border-radius: 5%;
+  border-style: double;
+  color: white;
   font-style: oblique;
   text-align: center;
 }
