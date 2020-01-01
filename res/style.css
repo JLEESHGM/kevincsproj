@@ -57,6 +57,7 @@ body > * {
    border-style: double;
    border-radius: 5%;
    display: block;
+   text-align: center;
    margin: auto;
    margin-bottom: 10px;
    margin-top: 10px;
@@ -66,6 +67,8 @@ body > * {
   border-style: double;
   border-radius: 5%;
   margin: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
   width: 45%;
 }
 .explain {
