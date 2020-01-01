@@ -11,7 +11,7 @@ body * {
 }
 
 body > * {
-  width: 60%;
+  width: 45%;
 }
 
 .explain .formulae img {
@@ -130,7 +130,6 @@ body > * {
   border-radius: 5%;
   border-style: double;
   background: radial-gradient(#100368, #280ED8);
-  width: 45%;
   margin: auto;
   margin-top: 10px;
 }
