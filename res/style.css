@@ -1,3 +1,17 @@
+.answers {
+  border-radius: 5%;
+  border-style: double;
+  width: 45%;
+  margin: auto;
+  background: radial-gradient(#7CA2FF, #240CC2);
+}
+.answers div {
+  display: none;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+
 body {
   background-image: url("../images/mainpage/backimage.jpg");
   background-attachment: fixed;
@@ -13,31 +27,6 @@ body * {
 body > * {
   width: 45%;
 }
-
-.explain .formulae img {
-   display: block;
-   margin: auto;
-   margin-top: 10px;
-   margin-bottom: 10px;
-}
-.explain .formulae{
-  background: radial-gradient(#8372F3, #3E21FF);
-  border-style: double;
-  border-radius: 5%;
-  margin: auto;
-  width: 60%;
-}
-
-.explain {
-  background: radial-gradient(#4E81FF, #0E48D8);
-  border-style: double;
-  border-radius: 5%;
-  width: 45%;
-  padding: 10px;
-  margin: auto;
-  margin-top: 20px;
-}
-
 .btn{
   border: 1px solid #3498db;
   background: none;
@@ -52,7 +41,6 @@ body > * {
   margin-top: 10px;
   background-color: #C7EEFC;
 }
-
 .btn1:hover{
   color: #38FA03;
 }
@@ -63,25 +51,36 @@ body > * {
   color: red;
 }
 
-.questions {
-    background: radial-gradient(#6591FF, #042BD8);
-  width: 45%;
-  margin: auto;
-  border-radius: 5%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+.explain .formulae img {
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.explain .formulae{
+  background: radial-gradient(#8372F3, #3E21FF);
   border-style: double;
+  border-radius: 5%;
+  margin: auto;
+  width: 60%;
 }
-
-.questions div img {
-  margin: center;
-  width: 80%;
+.explain {
+  background: radial-gradient(#4E81FF, #0E48D8);
+  border-style: double;
+  border-radius: 5%;
+  width: 45%;
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
 }
-
-.questions div {
-  display: none;
+.equation {
+  width: 150px ;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
 }
-
 .equations {
   list-style: none;
   margin-top: 10px;
@@ -96,27 +95,23 @@ body > * {
   display: block;
 }
 
-.equation {
-  width: 150px ;
-  background-color: white;
-  padding: 5px;
-  margin: 5px;
-  text-align: center;
-}
 
-.answers {
-  border-radius: 5%;
+.footer{
   border-style: double;
+  border-radius: 10%;
+  margin:auto;
+  background: radial-gradient(#78E2FA, #280ED8);
   width: 45%;
-  margin: auto;
-  background: radial-gradient(#7CA2FF, #240CC2);
+  margin-bottom: 3%;
 }
 
-.answers div {
-  display: none;
-  font-weight: bold;
-  font-size: 60px;
+
+#introduction {
+  text-align: center;
+  color: black;
+  font-style: oblique;
 }
+
 
 .mainPage {
  color: #74D9FF;
@@ -126,6 +121,25 @@ body > * {
  width: 45%;
  background: radial-gradient(#100368, #280ED8);
 }
+
+
+.questions {
+    background: radial-gradient(#6591FF, #042BD8);
+  width: 45%;
+  margin: auto;
+  border-radius: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-style: double;
+}
+.questions div {
+  display: none;
+}
+.questions div img {
+  margin: center;
+  width: 80%;
+}
+
 
 .title {
   font-family: Arial;
@@ -141,22 +155,4 @@ body > * {
   display: block;
   width: 25%;
   height: 25%;
-}
-
-#introduction {
-  text-align: center;
-  color: black;
-  font-style: oblique;
-}
-
-.doppler{
-  color: orangered;
-}
-.footer{
-  border-style: double;
-  border-radius: 10%;
-  margin:auto;
-  background: radial-gradient(#78E2FA, #280ED8);
-  width: 45%;
-  margin-bottom: 3%;
 }
