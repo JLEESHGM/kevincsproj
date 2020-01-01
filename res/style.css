@@ -4,6 +4,8 @@
   background: radial-gradient(#7CA2FF, #240CC2);
   margin: auto;
   width: 45%;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 .answers div {
   display: none;
