@@ -1,57 +1,47 @@
 <!doctype html>
 <html>
- <body>
-  <head>
-    <meta charset="utf-8">
-    <title>formula 5</title>
-    <link rel="stylesheet" type="text/css" href="../res/style.css">
-      <script>
-        function func1() {
-          if(document.getElementById('f1q').style.visibility == "visible") {
-            document.getElementById('f1q').style.visibility = "hidden";
-          }
-          else {
-            document.getElementById('f1q').style.visibility = "visible";
-          }
-        }
-        </script>
-        <script>
-        function func2() {
-          if(document.getElementById('f1qq').style.visibility == "visible") {
-            document.getElementById('f1qq').style.visibility = "hidden";
-          }
-          else {
-            document.getElementById('f1qq').style.visibility = "visible";
-          }
-        }
-        </script>
-        <script>
-        function func3() {
-          if(document.getElementById('f1qqq').style.visibility == "visible") {
-            document.getElementById('f1qqq').style.visibility = "hidden";
-          }
-          else {
-            document.getElementById('f1qqq').style.visibility = "visible";
-          }
-        }
-        </script>
-        <p><img src="../images/formula5/formula 5.gif"></p>
-        <p><img src="../images/formula5/formula 5a.gif"><div>This equation is basic equation in this topic</div></p>
-          <div><h3><p style="color: red">*all the unit follow the S.I base unit*</h3></div>
-            <h1>questions</h1>
-            <button class="btn btn1" onclick="func1()">question 1</button>
-              <div id="f1q" style="visibility: hidden"><img src="../images/formula5/formula 5q.PNG"></div>
-            <button class="btn btn2" onclick="func2()">question 2</button>
-              <div id="f1qq" style="visibility: hidden"><img src="../images/formula5/formula 5qq.PNG"></div>
-            <button class="btn btn3" onclick="func3()">question 3</button>
-              <div id="f1qqq" style="visibility: hidden"><img src="../images/formula5/formula 5qqq.PNG"></div>
-              <h1>Answers</h1>
-                <button class="btn btn1">answer 1</button>
-                <button class="btn btn2">answer 2</button>
-                <button class="btn btn3">answer 3</button>
-              <br>
-        <a href="../main page/index.html">Go back</a>
-        <p><br><br></p>
-    </head>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>formula 1</title>
+  <link rel="stylesheet" type="text/css" href="../res/style.css">
+  <script src="../res/script.js"></script>
+</head>
+
+<body>
+  <div class="explain">
+    <div class="formulae">
+      <img src="../images/formula5/formula 5.gif">
+      <img src="../images/formula5/formula 5a.gif">
+    </div>
+    <p>This equation is about diffraction grating.</p>
+    <h3 style="color: red">*all the unit follow the S.I. base unit*</h3>
+  </div>
+
+  <div class="questions">
+    <h1>Questions</h1>
+    <button class="btn btn1" onclick="buttonClick('f5q')">question 1</button>
+    <div id="f1q"><img src="../images/formula5/formula 5q.PNG"></div>
+    <button class="btn btn2" onclick="buttonClick('f5qq')">question 2</button>
+    <div id="f1qq"><img src="../images/formula5/formula 5qq.PNG"></div>
+    <button class="btn btn3" onclick="buttonClick('f5qqq')">question 3</button>
+    <div id="f1qqq"><img src="../images/formula5/formula 5qqq.PNG"></div>
+  </div>
+
+  <div class="answers">
+    <h1>Answers</h1>
+    <button class="btn btn1" onclick="buttonClick('f5a')">answer 1</button>
+    <div id="f1a">B</div>
+    <button class="btn btn2" onclick="buttonClick('f5aa')">answer 2</button>
+    <div id="f1aa">C</div>
+    <button class="btn btn3" onclick="buttonClick('f5aaa')">answer 3</button>
+    <div id="f1aaa">B</div>
+    <br>
+  </div>
+
+  <div class="footer">
+    <p><a href="../index.html">Go back</a></p>
+  </div>
+
+</body>
 </html>

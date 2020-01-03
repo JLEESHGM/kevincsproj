@@ -1,60 +1,47 @@
 <!doctype html>
 <html>
- <body>
-  <head>
-    <meta charset="utf-8">
-    <title>formula 3</title>
-    <link rel="stylesheet" type="text/css" href="../res/style.css">
-      <script>
-        function func1() {
-          if(document.getElementById('f3q').style.visibility == "visible") {
-            document.getElementById('f3q').style.visibility = "hidden";
-          }
-          else {
-            document.getElementById('f3q').style.visibility = "visible";
-          }
-        }
-        </script>
-        <script>
-        function func2() {
-          if(document.getElementById('f3qq').style.visibility == "visible") {
-            document.getElementById('f3qq').style.visibility = "hidden";
-          }
-          else {
-            document.getElementById('f3qq').style.visibility = "visible";
-          }
-        }
-        </script>
-        <script>
-          function func3() {
-            if(document.getElementById('f3qqq').style.visibility == "visible") {
-              document.getElementById('f3qqq').style.visibility = "hidden";
-            }
-            else {
-              document.getElementById('f3qqq').style.visibility = "visible";
-            }
-          }
-        </script>
-          <p><img src="../images/formula3/formula 3.gif"></p>
-          <p><img src="../images/formula3/formula 3a.gif">
-          <div><p>This equation is doppler effect in which</p></div>
-          <h3 class="doppler"> the observed frequency is different to the emitted frequency when there is relative motion between the source and observer.
-          </h3>
-          <div><h3><p style="color: red">*all the unit follow the S.I base unit*</h3>
-            <h1>questions</h1>
-            <button class="btn btn1" onclick="func1()">question 1</button>
-              <div id="f3q" style="visibility: hidden"><img src="../images/formula3/formula 3q.PNG"></div>
-            <button class="btn btn2" onclick="func2()">question 2</button>
-              <div id="f3qq" style="visibility: hidden"><img src="../images/formula3/formula 3qq.PNG"></div>
-            <button class="btn btn3" onclick="func3()">question 3</button>
-              <div id="f3qqq" style="visibility: hidden"><img src="../images/formula3/formula 3qqq.PNG"></div>
-              <h1>Answers</h1>
-                <button class="btn btn1">answer 1</button>
-                <button class="btn btn2">answer 2</button>
-                <button class="btn btn3">answer 3</button>
-        <br>
-      </head>
-    <a href="../main page/index.html">Go back</a>
-    <p><br><br></p>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>formula 1</title>
+  <link rel="stylesheet" type="text/css" href="../res/style.css">
+  <script src="../res/script.js"></script>
+</head>
+
+<body>
+  <div class="explain">
+    <div class="formulae">
+      <img src="../images/formula3/formula 3.gif">
+      <img src="../images/formula3/formula 3a.gif">
+    </div>
+    <p>This equation is called doppler effect.</p>
+    <h3 style="color: red">*all the unit follow the S.I. base unit*</h3>
+  </div>
+
+  <div class="questions">
+    <h1>Questions</h1>
+    <button class="btn btn1" onclick="buttonClick('f3q')">question 1</button>
+    <div id="f1q"><img src="../images/formula3/formula 3q.PNG"></div>
+    <button class="btn btn2" onclick="buttonClick('f3qq')">question 2</button>
+    <div id="f1qq"><img src="../images/formula3/formula 3qq.PNG"></div>
+    <button class="btn btn3" onclick="buttonClick('f3qqq')">question 3</button>
+    <div id="f1qqq"><img src="../images/formula3/formula 3qqq.PNG"></div>
+  </div>
+
+  <div class="answers">
+    <h1>Answers</h1>
+    <button class="btn btn1" onclick="buttonClick('f3a')">answer 1</button>
+    <div id="f1a">B</div>
+    <button class="btn btn2" onclick="buttonClick('f3aa')">answer 2</button>
+    <div id="f1aa">C</div>
+    <button class="btn btn3" onclick="buttonClick('f3aaa')">answer 3</button>
+    <div id="f1aaa">B</div>
+    <br>
+  </div>
+
+  <div class="footer">
+    <p><a href="../index.html">Go back</a></p>
+  </div>
+
+</body>
 </html>
