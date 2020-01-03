@@ -67,7 +67,6 @@ body > * {
 .explain .formulae{
   background: radial-gradient(#8372F3, #3E21FF);
   border-style: double;
-  border-width: thick;
   border-radius: 5%;
   margin: auto;
   margin-left: auto;
